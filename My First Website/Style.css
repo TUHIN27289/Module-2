@@ -23,15 +23,70 @@ p{
     text-align: justify;
 }
 img{
-    border: 50%;
-    /* box-sizing: 0 0 10px rgba(0, 0, 0, 0.5); */
-    /* position: center; */
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 2px;
-    border-top-style: groove;
-    width: 800px;
-    height: 800px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    transition: transform 0.3s;
+    max-width: 1300px;
+    max-height: 1200px;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: auto !important;
+    margin-bottom: 50px !important;
+
+}
+/* p{
+    font-size: 20px;
+    text-align: justify;
+    color: #000;
+    background-color: mediumturquoise;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 25px;
+    box-shadow: 5px 5px 5px tomato;
+} */
+ /* div{
+    font-size: 20px;
+    text-align: justify;
+    color: #000;
+    background-color: mediumturquoise;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid #000;
+    margin: 25px;
+    box-shadow: 5px 10px 10px brown;
+} */
+p{
+    font-size: 20px;
+    text-align: justify;
+    color: #000;
+    background-color: mediumturquoise;
+    padding: 10px;
+    border-radius: 5px;
+    border: 5px solid #000;
+    margin: 25px;
+    
+}
+.para{
+    font-size: 20px;
+    text-align: justify;
+    color: #000;
+    background-color:seagreen;
+    padding: 10px;
+    border-radius: 5px;
+    border: 5px solid #000;
+    margin: 25px;
+    box-shadow: 10px 10px 10px tomato;
+}
+.paragraph, #id_p{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color:deeppink;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: 5px solid #000;
+    margin: 25px;
+    box-shadow: 20px 20px 10px blue;
 }
