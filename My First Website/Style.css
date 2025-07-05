@@ -103,3 +103,28 @@ p{
 .visibility_hidden{
     visibility: hidden;
 }
+.span_block{
+    border: 3px solid tomato;
+}
+.span_block_test{
+    border: 3px solid blue;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.background_image{
+    /* background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'); */
+    /* background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'); */
+    background-image: url('clearer_beach_photo\ -\ Edited.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+.background_image h2{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 35px;
+}
